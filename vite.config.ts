@@ -5,6 +5,10 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
 	plugins: [svelte(), tailwindcss()],
+	build: {
+		// The playground site; "dist" is reserved for the library build.
+		outDir: "dist-site"
+	},
 	resolve: {
 		alias: {
 			$src: fileURLToPath(new URL("./src", import.meta.url)),
