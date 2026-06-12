@@ -75,12 +75,12 @@
 	};
 </script>
 
-<div class="fixed inset-0 flex flex-col items-center justify-center gap-4 font-sans sm:flex-row">
+<div class="fixed inset-0 flex flex-col items-center justify-center gap-4 p-4 font-sans sm:flex-row">
 	{#each cards as card (card.id)}
 		<button
 			type="button"
 			onclick={() => toggle(card)}
-			class="flex w-48 cursor-pointer flex-col items-start gap-1 rounded-xl border p-6 text-left transition-colors {spawned[
+			class="flex w-full cursor-pointer flex-col items-start gap-1 rounded-xl border p-6 text-left transition-colors sm:w-48 {spawned[
 				card.id
 			]
 				? 'border-zinc-600 bg-zinc-900'
