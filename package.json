@@ -19,6 +19,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json",
+		"build:site": "vite build",
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"format": "prettier --write ."
