@@ -75,7 +75,7 @@
 	};
 </script>
 
-<div class="fixed inset-0 flex items-center justify-center gap-4 font-sans">
+<div class="fixed inset-0 flex flex-col items-center justify-center gap-4 font-sans sm:flex-row">
 	{#each cards as card (card.id)}
 		<button
 			type="button"
