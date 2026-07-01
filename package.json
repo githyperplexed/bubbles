@@ -62,7 +62,7 @@
 		"@playwright/test": "^1.60.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@tailwindcss/vite": "^4.3.0",
-		"@types/node": "^25.9.3",
+		"@types/node": "^26.0.1",
 		"happy-dom": "^20.10.3",
 		"marked": "^18.0.5",
 		"prettier": "^3.8.4",
